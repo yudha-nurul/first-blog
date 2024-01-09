@@ -11,8 +11,8 @@ rmdir (or del) 	    rm 							          delete a file 			    del c:\test\test.tx
 rmdir \S 		        rm -r 					          delete a directory 		   rm -r testdirector
 
 --- Virtual environment ---
-# make project folder :
-$ mkdir djangogirls
+# make project folder (prepare folder project django):
+$ mkdir djangogirls 
 $ cd djangogirls
 # make virtual env :
 $ python3 -m venv myvenv
@@ -20,6 +20,33 @@ $ python3 -m venv myvenv
 C:\Users\Name\djangogirls> myvenv\Scripts\activate
 for linux :
 $ source myvenv/bin/activate
+
+--- Installing Django ---
+# make sure we have the latest version of pip
+pip install --upgrade pip
+# install django in started venv
+pip install django~=___(version of django)
+# (if get an error when calling pip on windows, check if your project path contain spaces or special character)
+
+--- Create django project ---
+# for windows, don't forget to add the period (or dot) . at the end:
+(myvenv) C:\Users\Name\djangogirls> django-admin.py startproject mysite .
+# for mac or linux, don't forget to add the period (or dot) . at the end:
+(myvenv) ~/djangogirls$ django-admin startproject mysite .
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 --- Installing Django in venv ---
 
