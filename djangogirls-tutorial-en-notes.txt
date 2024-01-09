@@ -11,6 +11,17 @@ rmdir (or del) 	    rm 							          delete a file 			    del c:\test\test.tx
 rmdir \S 		        rm -r 					          delete a directory 		   rm -r testdirector
 
 --- Virtual environment ---
+# make project folder :
+$ mkdir djangogirls
+$ cd djangogirls
+# make virtual env :
+$ python3 -m venv myvenv
+# start the virtual env :
+C:\Users\Name\djangogirls> myvenv\Scripts\activate
+for linux :
+$ source myvenv/bin/activate
+
+--- Installing Django in venv ---
 
 
 
