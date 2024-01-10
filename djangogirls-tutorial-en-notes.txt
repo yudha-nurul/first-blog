@@ -91,6 +91,12 @@ Running migrations:
 # If you are on Windows and this fails with UnicodeDecodeError , use this command instead:
 (myvenv) ~/djangogirls$ python manage.py runserver 0:8000
 
+# Django models
+# What we want to create now is something that will store all the posts in our blog. But to be able to do # that we need to talk a
+# little bit about things called objects .
+--- Objects ---
+
+
 
 
 
